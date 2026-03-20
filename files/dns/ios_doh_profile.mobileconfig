@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://dns.YOUR_DOMAIN/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>BeerAlex DNS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.beeralex.dns.doh</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>DNS over HTTPS configuration for BeerAlex DNS</string>
+	<key>PayloadDisplayName</key>
+	<string>BeerAlex DoH</string>
+	<key>PayloadIdentifier</key>
+	<string>com.beeralex.dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>B2C3D4E5-F6A7-8901-BCDE-F12345678901</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

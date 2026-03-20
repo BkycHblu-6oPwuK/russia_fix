@@ -1,0 +1,26 @@
+Source: /etc/x-ui/x-ui.db
+
+Redacted summary of current 3x-ui panel settings:
+
+- webPort: 28500
+- webBasePath: <REDACTED>
+- panel secret: <REDACTED>
+- admin username: <REDACTED>
+- admin password: <REDACTED>
+
+Inbound summary:
+
+- inbound-443: VLESS + Reality, port 7443, serverName www.microsoft.com, flow xtls-rprx-vision
+- inbound-29886: VLESS + Reality, port 29886, serverName www.google.com, flow xtls-rprx-vision
+
+Routing summary:
+
+- geoip:private -> blocked
+- bittorrent -> blocked
+- geoip:ru -> warp
+
+WARP summary:
+
+- outbound socks to 127.0.0.1:40000
+- username: warpuser
+- password: <REDACTED>

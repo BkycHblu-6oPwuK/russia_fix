@@ -1,0 +1,19 @@
+server: YOUR_DOMAIN_OR_IP:8443
+
+auth: CHANGE_ME_HYSTERIA_PASSWORD
+
+tls:
+  sni: YOUR_DOMAIN
+  insecure: false
+
+obfs:
+  type: salamander
+  salamander:
+    password: CHANGE_ME_OBFS_PASSWORD
+
+transport:
+  udp:
+    hopInterval: 30s
+
+socks5:
+  listen: 127.0.0.1:1080

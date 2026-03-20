@@ -1,0 +1,30 @@
+listen: :8443
+
+tls:
+  cert: <REDACTED_PATH>
+  key: <REDACTED_PATH>
+  alpn:
+    - h3
+    - h2
+    - http/1.1
+
+auth:
+  type: password
+  password: <REDACTED>
+
+bandwidth:
+  up: 100 mbps
+  down: 100 mbps
+
+obfs:
+  type: salamander
+  salamander:
+    password: <REDACTED>
+
+masquerade:
+  enabled: true
+  type: proxy
+  proxy:
+    url: https://www.cloudflare.com
+    http3: true
+  mtu: 1200
