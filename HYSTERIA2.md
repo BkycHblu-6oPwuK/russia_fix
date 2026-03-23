@@ -45,9 +45,6 @@ ss -tulpn | grep 8443
 - Auth:
   - `type: password`
   - один пароль для клиента
-- Bandwidth:
-  - `up: 100 mbps`
-  - `down: 100 mbps`
 - Obfuscation:
   - `type: salamander`
   - отдельный пароль obfs
@@ -119,10 +116,6 @@ tls:
 auth:
   type: password
   password: CHANGE_ME_HYSTERIA_PASSWORD
-
-bandwidth:
-  up: 100 mbps
-  down: 100 mbps
 
 obfs:
   type: salamander

@@ -1,0 +1,10 @@
+[Unit]
+Description=Shadowsocks WS
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/ssserver -c /etc/shadowsocks-ws.json
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

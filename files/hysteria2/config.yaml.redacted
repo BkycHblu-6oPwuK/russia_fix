@@ -12,10 +12,6 @@ auth:
   type: password
   password: <REDACTED>
 
-bandwidth:
-  up: 100 mbps
-  down: 100 mbps
-
 obfs:
   type: salamander
   salamander:
